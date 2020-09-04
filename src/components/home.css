@@ -1,0 +1,260 @@
+
+.bar{
+	width: 30px;
+	margin: 2px;
+	height: 20px;
+	color: rgb(139,139,137);
+	background:grey;
+}
+.btn{
+	border: 1px solid black;
+	display: inline-block;
+}
+.name{
+	font-size: 25px;
+	font-family:Old English Text MT ;
+}
+.logoBtn{
+
+	background:#94221b;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	border-bottom: 1px solid red;
+}
+.logoBtn img{
+	margin-top: 3px;
+	margin-left: 100px;
+}
+.logoBtn h2{
+	color: white;
+	font-family: Castellar;
+	font-size: 30px;
+	padding-left: 30px;
+}
+ul{
+	list-style: none;
+	height: 0px;
+	overflow: hidden;
+	transition: all 0.4s ease;
+	justify-content: space-between;
+}
+.showNav{
+	height: 160px;
+}
+ul li a{
+	background:#94221b;
+	display: block;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	font-size: 25px;
+	font-family: Lucida Bright;
+
+	
+}
+ul li a:hover{
+	background-color: #353535;
+	color: orange;
+	
+}
+@media screen and (min-width: 640px){
+	nav{
+		background:#94221b;
+		display: flex;
+		align-items: center;
+		margin-top: 20px;
+		justify-content: space-between;
+	}
+	.showNav{
+	height: auto;
+	}
+	.btn{
+		display: none;
+	}
+	ul{
+		display: flex;
+		height: auto;
+
+	}
+	nav ul a{
+		background:transparent;
+	}
+	.logoBtn{
+		border:none;
+	}
+	ul li a:hover{
+	background:none;
+	color: orange;
+	padding-left: 10px;
+	
+}
+}
+.content{
+	background-color: #e0c6a2;
+	width: 100%;
+	height: 400px; 
+	font-size: 30px; 
+}
+.about h1{
+	text-align: center;
+	text-decoration:underline;
+	color: #855a21;
+}
+.head{
+	background-color: #e0c6a2;
+	width: 100%;
+	height:600px;
+	position: absolute;
+}
+.inside{
+	background-color: #78592e;
+	width: 730px;
+	height: 500px;
+	margin-top: 70px;
+	margin-left: 400px;
+	position: relative;
+}
+.grid p{
+	color: white;
+	font-size: 30px;
+	padding-left: 75px;
+	padding-top: 0px;
+}
+.grid img{
+	margin-left: 30px;
+}
+.grid{
+	float: left;
+}
+.grid2 p{
+	color: white;
+	font-size: 30px;
+	padding-left: 100px;
+	padding-top: 0px;
+	position: absolute;
+}
+.grid2 img{
+	margin-left: 30px;
+	margin-top: 100px;
+	position: relative;
+}
+.grid2{
+	float: left;
+}
+.grid3 p{
+	color: white;
+	font-size: 30px;
+	padding-left: 500px;
+	padding-top: 0px;
+	position: absolute;
+}
+.grid3 img{
+	margin-left: 30px;
+	margin-top: 100px;
+	position: relative;
+}
+.grid4 p{
+	color: white;
+	font-size: 30px;
+	padding-left: 120px;
+	padding-top: 0px;
+	position: absolute;
+}
+.grid4 img{
+	margin-left: 100px;
+	margin-top: 80px;
+	position: relative;
+}
+.grid4{
+	float: left;
+}
+.grid5 p{
+	color: white;
+	font-size: 30px;
+	padding-left: 430px;
+	padding-top: 0px;
+	position: absolute;
+}
+.grid5 img{
+	margin-left: 100px;
+	margin-top: 80px;
+	position: relative;
+}
+.for p{
+	font-size: 25px;
+	color: brown;
+}
+.for input{
+	padding-left: 150px;
+}
+.for{
+	margin-left: 500px;
+}
+.for sub {
+	padding-left: 0px;
+}
+.footer{
+	background-color: #edba61;
+	width: 100%;
+	height: 300px;
+}
+.adr{
+	float: left;
+	padding-left: 100px;
+}
+.adr h2{
+	font-size: 30px;
+	color: #784320;
+}
+.adr p{
+	color: #522d0c;
+	font-size: 25px;
+}
+.menu{
+	float: left;
+	padding-left: 300px;
+} 
+.menu h2{
+	font-size: 30px;
+	color: #784320;
+}
+.menu p{
+	color: #522d0c;
+	font-size: 25px; 
+}
+.service{
+	padding-left: 1100px;
+}
+.service h2{
+	font-size: 30px;
+	padding-left: 50px;
+	color: #784320;
+}
+.service p{
+	color: #522d0c;
+	font-size: 25px;
+}
+.good-service h1{
+	text-align: center;
+	color: brown;
+}
+.good-service p{
+	font-size: 25px;
+	color: #784320; 
+	text-align: center;
+}
+.good-service button{
+	width: 130px;
+	height: 50px;
+	font-size: 20px;
+	background-color:#522d0c;
+	color: white;
+	margin-left: 700px; 
+}
+.good-service button:hover{
+	background-color: white;
+	color: #522d0c;
+}
